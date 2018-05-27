@@ -142,7 +142,7 @@ var Application = React.createClass({
   onRemovePlayer: function(index){
     this.state.players.splice(index, 1);
     this.setState(this.state);
-    
+
   },
 
   render: function(){
